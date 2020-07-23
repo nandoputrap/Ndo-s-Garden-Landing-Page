@@ -1,0 +1,62 @@
+    <!doctype html>
+    <html lang="en">
+
+    <head>
+        <style>
+            .container {
+                display: flex;
+
+                /* Properti lainnya */
+                width: 800px;
+                height: 250px;
+                background-color: #11C5C6;
+                border: 2px solid black;
+                padding: 20px;
+                border-radius: 10px;
+                margin: 0 auto;
+            }
+
+            .box {
+                flex-grow: 1;
+
+                /* properti lainnya */
+                background-color: #FBDD1C;
+                margin: 5px;
+                border: 2px solid black;
+                border-radius: 10px;
+            }
+
+            .box img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .hamburger-menu {
+                width: 30px;
+            }
+
+            hr {
+                border-bottom: solid 3px green;
+                border-radius: 5px;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <header>
+            <div class="hamburger-menu">
+                <hr>
+                <hr>
+                <hr>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="box"><img src="img/nando.png" alt="" class="flex-item photo"></div>
+            <div class="box"><img src="img/nando.png" alt="" class="flex-item photo"></div>
+            <div class="box"><img src="img/nando.png" alt="" class="flex-item photo"></div>
+        </div>
+    </body>
+
+    </html>
